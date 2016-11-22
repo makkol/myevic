@@ -1,7 +1,7 @@
 ## **myevic**
-This is myevic Custom Firmware.
+Isto é o Firmware Customizado myevic.
 
-### Compatible hardwares:
+### Dispositivos Compatíveis:
 * eVic VTC Mini
 * eVic VTC Dual
 * eVic VTwo Mini
@@ -18,41 +18,41 @@ This is myevic Custom Firmware.
 * Wismec Reuleaux RX2/3
 
 
-### Based on:
-*Original VTC Mini 3.03 firmware*
+### Baseado em:
+*Firmware Original VTC Mini 3.03*
 
-### Main Features:
-The look-and-feel of the myevic firmware is more-or-less identical to the original firmware, so you shouldn't be lost.  
-Many new features and options are made available through the menu system; I strongly encourage you to fully read the present documentation.
+### Principais Características:
+A aparencia e utilização do firmware myevic é mais ou menos identica ao firmware original, logo, não será difícil utilizá-lo.  
+Foram adicionadas muitas opções e funcionalidades novas atravez do sistema de menus; Recomando vivamente a leitura exaustiva da presente documentação.
 
-### Usage:
+### Utilização:
 
-The binary firmware file is included in the **bin/** subdirectory of the project.  
-If you are only interested in installing and using the firmware, download it here : [bin/myevic](https://github.com/ClockSelect/myevic/blob/master/bin/myevic.bin)
+O ficheiro de firmware binário foi incluída na subdirectoria **bin/** do projecto.  
+Se está somente interessado em descarregar e utilizar o firmware, podes descarregá-lo daqui : [bin/myevic](https://github.com/ClockSelect/myevic/blob/master/bin/myevic.bin)
   
-Once you've downloaded the firmware binary, you may:
+Uma vez descarregado o firmware binário, poderás:
 
-- Use the manufacturer's firmware updater to upload [myevic.bin](https://github.com/ClockSelect/myevic/blob/master/bin/myevic.bin) like you would with a usual firmware update from Joyetech or Wismec:
-  - Download the firmware updater package from the manufacturer [Wismec](http://www.wismec.com/software/) or [Joyetech](http://www.joyetech.com/mvr-software/), depending of the brand and model of your box. Be sure to pick the right software for the right box brand and model.
-  - Unzip the update package and launch the UpdateFirmware.exe (Joyetech) or UpdateWismec.exe (Wismec) found in the package.
-  - Plug your box into your PC via USB  
-    Be sure you use a data-capable USB cable. Some cheap cables coming with some boxes only ensures box charging. If unsure, use the cable that came with your box. Once done, the updater window should show the model and version of your box.
-  - Click the "Update" button; a file selection dialog will open. Select the "myevic.bin" file.
-  - Wait for the update process to complete.  
-    If something goes wrong, retry to update. Update fails sometimes; this shouldn't be a concern.
-  - Enjoy.  
+- Usar a aplicação de update do firmware do fabricante para fazer upload do [myevic.bin](https://github.com/ClockSelect/myevic/blob/master/bin/myevic.bin) tal como farias com um update de firmware normal da Joyetech ou Wismec:
+  - Descarregar o pacote de actualização de firmware do fabricante [Wismec](http://www.wismec.com/software/) ou [Joyetech](http://www.joyetech.com/mvr-software/), dependendo da marca e modelo da tua box. Deverás confirmar a utilização do software correcto para a marca e modelo da tua box.
+  - Descompactar o pacote de atualização e executar o UpdateFirmware.exe (Joyetech) ou UpdateWismec.exe (Wismec) , ambos localizados no pacote.
+  - Ligar a tua box ao teu PC atravez da ligação USB  
+    Certifica que estás a usar um cabo USB capaz de transmitir dados. Alguns cabos baratos só permitem carregar as baterias. Se não tens a certeza, use o cabo que veio juntamente com a tua box. Feito isto, a janela de actualização deverá indicar a marca e modelo da tua box.
+  - Clickar no botão "Actualizar"; uma janela irá abrir para seleccionar o ficheiro. Seleccionar o ficheiro "myevic.bin".
+  - Aguardar até terminar o processo.  
+    Se acontecer algo inesperado, volta a tentar a actualização. Por vezes a actualização poderá falhar, mas não é uma situação preocupante.
+  - Disfrute.  
   
-OR  
+OU  
 
-- For linux/Cygwin users, use evic-usb to upload [myevic.bin](https://github.com/ClockSelect/myevic/blob/master/bin/myevic.bin) to your box, using command line:
+- Para utilizadores linux/Cygwin, utiliza evic-usb para fazer upload do [myevic.bin](https://github.com/ClockSelect/myevic/blob/master/bin/myevic.bin) para a tua box, utilizando o comando:
 
     ```evic-usb upload myevic.bin```
 
-OR  
+OU  
 
-- Use  [NFirmwareEditor](https://github.com/TBXin/NFirmwareEditor/releases) or the [FWUpdater](https://www.dropbox.com/s/83zd19gu05pl3r6/EvicVTCFont.rar?dl=1) part of the [VTCFont](https://www.dropbox.com/s/83zd19gu05pl3r6/EvicVTCFont.rar?dl=1) package to upload [myevic.bin](https://github.com/ClockSelect/myevic/blob/master/bin/myevic.bin) to your box.
+- Utilizar  [NFirmwareEditor](https://github.com/TBXin/NFirmwareEditor/releases) ou o [FWUpdater](https://www.dropbox.com/s/83zd19gu05pl3r6/EvicVTCFont.rar?dl=1) , parte do pacote [VTCFont](https://www.dropbox.com/s/83zd19gu05pl3r6/EvicVTCFont.rar?dl=1) para fazer upload do [myevic.bin](https://github.com/ClockSelect/myevic/blob/master/bin/myevic.bin) para a tua box.
 
-### Thanks to:
+### Agradecimentos:
 
     * ReservedField
     * Bane
@@ -65,27 +65,27 @@ OR
     * Sharky1980
     * gdb
     
-    And many others, supporting this project and taking the time to open or help solving issues.
+    E muitos outros que dedicaram o seu tempo a apoiar este projecto abrindo ou resolvendo questões.
 
 
 
 ----------
-### Changes in behavior ###
-Some changes has been made to the overall behavior of the firmware from the original. This paragraph may be read by any new user not to think something is a "bug".
+### Alterações no comportamento ###
+Foram feitas algumas alterações ao comportamento geral do firmware comparando com o original. Este parágrafo serve para que um utilizador novo não pense que uma funcionalidade é um "bug".
 
-* Stealth mode:  
-  The stealth mode has been extended to some more screens.  
-  The battery charging screen does no longer show up in stealth mode; only for a few seconds when plugging in the USB cable, just to show it's been correctly plugged.  
-  The Key Lock/UnLock screen reverts to black screen if keys are locked.  
-  The Stealth On/Off screen goes to black when setting stealth On.
+* Modo Furtivo:  
+  O modo furtivo foi aplicada a mais ecrãs.  
+  O ecrã de carregamento de baterias já não aparece em modo furtivo; someonte durante alguns segundos quando se liga o cabo USB, apenas para indicar que a ligação foi correctamente efectuada.  
+  O ecrã de Bloqueio/Desbloqueio fica preto se as teclas estão bloqueadas.  
+  O ecrã Modo Furtivo Ligado/Desligado fica preto quando o modo furtivo está activado.
 
-* Right (+) and Left (-) buttons:  
-  While editing some values, the speed of change has been made more progressive before reaching the insane terminal velocity.  
-  Pressing those buttons does no longer wake up the box from screen saving, except if configured to do so in the Interface menu (see below). This makes the box more pocket-proof.
+* Botões Direita (+) e Esquerda (-):  
+  Quando se editam alguns valores, a velocidade de alteração foi alterado para ser mais progressivo antes de chegar ás velocidades estonteantes.  
+  Carregando estes botãoes já não acordam a box do modo proteção de ecrã, exceto se está configurado para faze-lo no menu Interface (ver abaixo). Isto torna a box mais resistente aos bolsos.
 
-* Temperature setting in TEMP mode:  
-  The temperature no longer wraps-around by switching between °C and °F; the temperature unit has to be chosen once and for all in the Interface menu. Default is °C.  
-  The temperature setting can vary by +/1 °C or +/-5 °F when edited if configured to do so in the Interface menu (see below).
+* Definições de Temperatura no modo TEMP:  
+  A temperatura já não muda entre °C e °F; a unidade de temperatura poderá ser seleccionada definitivamente no menu Interface. °C está prédfinido.  
+  A configuração de Temperatura poderá variar por +/1 °C ou +/-5 °F quando editado se foi configurado para o fazer no menu Interface (ver abaixo).
 
 * Fire button Multi-Clicks:  
   Clicking rapidly 2, 3 or 4 times on the fire button may now have some effect - see below in the Interface menu description to see those effects and how to set (or unset) them up.  
